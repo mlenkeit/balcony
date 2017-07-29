@@ -1,6 +1,6 @@
 'use strict';
 
-const measureDistance = require('./../lib/sensor/vl53l0x/measure-distance');
+const measureDistance = require('./../lib/sensor/vl53l0x-tof/measure-distance');
 
 const pythonLongRangeScript = process.env.python_long_range_script;
 assert(pythonLongRangeScript, 'python_long_range_script env var');
