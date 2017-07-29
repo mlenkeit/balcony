@@ -1,5 +1,7 @@
 'use strict';
 
+const assert = require('assert');
+
 const measureDistance = require('./../lib/sensor/vl53l0x-tof/measure-distance');
 
 const pythonLongRangeScript = process.env.python_long_range_script;
